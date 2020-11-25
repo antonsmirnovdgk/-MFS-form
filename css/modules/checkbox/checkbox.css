@@ -1,0 +1,39 @@
+.form__check {
+  position: relative;
+  padding-left: 33px;
+  margin-bottom: 32px; }
+
+.form__checkebox {
+  position: relative; }
+
+.form__checkebox + label {
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222; }
+  @media (max-width: 375px) {
+    .form__checkebox + label {
+      font-size: 12px;
+      line-height: 14px; } }
+
+input[type="checkbox"] {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+input[type="checkbox"] ~ label:before {
+  content: " ";
+  position: absolute;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  left: 0;
+  background-image: url("../img/svg/checkbox/checkbox.svg");
+  cursor: pointer; }
+
+input[type="checkbox"]:checked + label:before {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/svg/checkbox/checkbox-checked.svg"); }
+
+/*# sourceMappingURL=checkbox.css.map */

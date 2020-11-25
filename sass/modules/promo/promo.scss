@@ -1,0 +1,28 @@
+.promo {
+  margin-bottom: 72px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 63px;
+  }
+}
+
+.promo-title {
+  min-width: 85%;
+  margin: 0;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 72px;
+  color: #ffffff;
+
+  @media (max-width: 768px) {
+    font-size: 43px;
+    line-height: 46px
+  }
+
+  @media (max-width: 375px) {
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 38px
+  }
+
+}
