@@ -309,7 +309,7 @@ template {
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("../fonts/Graphik-Medium-We.woff2") format("woff2"), url("../fonts/Graphik-Medium-We.woff2") format("woff"); }
+  src: local("Graphik-Medium-We"); }
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -340,11 +340,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 19px;
-  line-height: 26px;
-  background-image: linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)), url("../img/body/bodyback.png");
-  background-repeat: no-repeat;
-  background-position: 100% 0;
-  background-size: cover; }
+  line-height: 26px; }
   .page-body::after {
     content: "";
     position: absolute;
@@ -376,6 +372,14 @@ body {
       width: 150px;
       font-size: 0.7rem;
       line-height: 1rem; } }
+
+.page-header::before {
+  content: " ";
+  position: absolute;
+  background-image: linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)), url("../img/body/bodyback.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: cover; }
 
 .promo {
   margin-bottom: 72px; }

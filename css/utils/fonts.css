@@ -3,6 +3,6 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("../fonts/Graphik-Medium-We.woff2") format("woff2"), url("../fonts/Graphik-Medium-We.woff2") format("woff"); }
+  src: local("Graphik-Medium-We"); }
 
 /*# sourceMappingURL=fonts.css.map */

@@ -15,13 +15,7 @@ body {
   font-size: 19px;
   line-height: 26px;
 
-  background-image:
-  linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)),
-  url("../img/body/bodyback.png");
-
-  background-repeat: no-repeat;
-  background-position: 100% 0;
-  background-size: cover;
+  
 
 
   &::after {
