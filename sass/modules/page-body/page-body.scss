@@ -23,6 +23,7 @@ body {
   background-position: 100% 0;
   background-size: cover;
 
+
   &::after {
     content: "";
     position: absolute;
@@ -33,7 +34,6 @@ body {
     left: 0;
     background: linear-gradient(180deg, #252D38 3.12%, rgba(37, 45, 56, 0) 100%);
     transform: rotate(-180deg);
-
   }
 
 }
