@@ -1,0 +1,27 @@
+.select-list {
+  list-style: none; }
+
+.select-list__item {
+  position: relative;
+  margin-bottom: 24px; }
+
+.select-list__item--arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 28px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/svg/select/down-arrow.svg");
+  background-repeat: no-repeat; }
+
+.select::-ms-expand {
+  display: none; }
+
+.select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none; }
+
+/*# sourceMappingURL=select-list.css.map */

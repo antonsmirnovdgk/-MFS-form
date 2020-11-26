@@ -1,10 +1,10 @@
-.form__contact {
+.contact {
   border: none;
   margin: 0;
   padding: 0;
 }
 
-.form__contact-title {
+.contact__title {
   margin-bottom: 32px;
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
@@ -16,10 +16,10 @@
   color: $blackColor;
 }
 
-.form__contact-list {
+.contact__list {
   list-style: none;
 }
 
-.form__contact-item {
+.contact__item {
   margin-bottom: 24px;
 }

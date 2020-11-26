@@ -1,13 +1,6 @@
-.form__info {
+.form-info {
   padding: 0;
   margin-bottom: 64px;
   border: none; }
-
-.form__info-list {
-  list-style: none; }
-
-.form__info-item {
-  position: relative;
-  margin-bottom: 24px; }
 
 /*# sourceMappingURL=info.css.map */

@@ -1,24 +1,14 @@
-.select__list {
+.select-list {
   list-style: none;
 }
 
-.select__item {
+.select-list__item {
   position: relative;
   margin-bottom: 24px;
 }
 
 
-.select {
-  position: relative;
-  font-family: "Graphik", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.9rem;
-  outline: none;
-  color: $greyColor;
-}
-
-.select--arrow::after {
+.select-list__item--arrow::after {
   content: "";
   position: absolute;
   right: 0;

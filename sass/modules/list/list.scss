@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+}
+
+.list__item--description{
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 38px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: $whiteColor;
+
+  &::before {
+    content: " ";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-image: url(../img/svg/svg.svg);
+    background-repeat: no-repeat;
+  }
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 32px;
+
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+}

@@ -7,9 +7,11 @@
     <title>Генеральный подрядчик МФС</title>
   </head>
   <body class="page-body">
-    <header class="page-header">
+    <header class="header">
       <div class="container">
-        <a class="page-header__logo" href="#">Генеральный подрядчик МФС</a>
+        <div class="logo logo--padding">
+          <a class="logo__link" href="#">Генеральный подрядчик МФС</a>
+        </div>
       </div>
     </header>
     <main class="page-main">
@@ -23,75 +25,75 @@
         <div class="container">
           <div class="description__wrapper">
             <div class="description__column-text">
-              <ul class="description__list">
-                <li class="description__item">Построили свыше  21 млн м² жилья</li>
-                <li class="description__item">Запустили проекты в 10 регионах России</li>
-                <li class="description__item">В наших квартирах живёт более 340 000 семей</li>
-                <li class="description__item">В работе над проектами задействовано более 20 000 сотрудников. У нас одна из 10 крупнейших архитектурных фирм в мире</li>
-                <li class="description__item">У нас одна из 10 крупнейших архитектурных фирм в мире</li>
+              <ul class="list list--description">
+                <li class="list__item list__item--description">Построили свыше  21 млн м² жилья</li>
+                <li class="list__item list__item--description">Запустили проекты в 10 регионах России</li>
+                <li class="list__item list__item--description">В наших квартирах живёт более 340 000 семей</li>
+                <li class="list__item list__item--description">В работе над проектами задействовано более 20 000 сотрудников. У нас одна из 10 крупнейших архитектурных фирм в мире</li>
+                <li class="list__item list__item--description">У нас одна из 10 крупнейших архитектурных фирм в мире</li>
               </ul>
             </div>
             <div class="description__column-data">
               <form class="form" action="index.html" method="post">
-                <fieldset class="form__info">
-                  <ul class="form__info-list">
-                    <li class="form__info-item">
+                <fieldset class="form-info">
+                  <ul class="input-list">
+                    <li class="input-list__item">
                       <label for="field-lastname"></label>
-                      <input class="input" id="field-lastname" type="text" name="lastname" placeholder="Фамилия">
+                      <input class="input input--select" id="field-lastname" type="text" name="lastname" placeholder="Фамилия">
                     </li>
-                    <li class="form__info-item">
+                    <li class="input-list__item">
                       <label for="field-name"></label>
-                      <input class="input" id="field-name" type="text" name="name" placeholder="Имя">
+                      <input class="input input--select" id="field-name" type="text" name="name" placeholder="Имя">
                     </li>
-                    <li class="form__info-item">
+                    <li class="input-list__item">
                       <label for="field-surname"></label>
-                      <input class="input" id="field-surname" type="text" name="surname" placeholder="Отчество">
+                      <input class="input input--select" id="field-surname" type="text" name="surname" placeholder="Отчество">
                     </li>
-                    <li class="form__info-item">
+                    <li class="input-list__item">
                       <label for="field-age"></label>
-                      <input class="input" id="field-age" type="text" name="age" placeholder="Возвраст">
+                      <input class="input input--select" id="field-age" type="text" name="age" placeholder="Возвраст">
                     </li>
                   </ul>
-                  <ul class="select__list">
-                    <li class="select__item select--arrow">
-                      <select class="select" name="Пол">
+                  <ul class="select-list">
+                    <li class="select-list__item select-list__item--arrow">
+                      <select class="select input--select" name="Пол">
                         <option value="Пол">Пол</option>
                         <option value="Мужской">Мужской</option>
                         <option value="Женский">Женский</option>
                       </select>
                     </li>
-                    <li class="select__item select--arrow">
-                      <select class="select" name="Гражданство">
+                    <li class="select-list__item select-list__item--arrow">
+                      <select class="select input--select" name="Гражданство">
                         <option value="Гражданство">Гражданство</option>
                       </select>
                     </li>
-                    <li class="select__item select--arrow">
-                      <select class="select" name="Образование">
+                    <li class="select-list__item select-list__item--arrow">
+                      <select class="select input--select" name="Образование">
                         <option value="Образование">Образование</option>
                       </select>
                     </li>
-                    <li class="select__item select--arrow">
-                      <select class="select" name="Город">
+                    <li class="select-list__item select-list__item--arrow">
+                      <select class="select input--select" name="Город">
                         <option value="Город">Город</option>
                       </select>
                     </li>
                   </ul>
                 </fieldset>
-                <fieldset class="form__contact">
-                  <legend class="form__contact-title">Контактные данные</legend>
-                  <ul class="form__contact-list">
-                    <li class="form__contact-item">
+                <fieldset class="contact">
+                  <legend class="contact__title">Контактные данные</legend>
+                  <ul class="contact__list">
+                    <li class="contact__item">
                       <label for="field-number"></label>
-                      <input class="input" id="field-number" type="text" name="number" placeholder="Номер телефона">
+                      <input class="input input--select" id="field-number" type="text" name="number" placeholder="Номер телефона">
                     </li>
-                    <li class="form__contact-item">
+                    <li class="contact__item">
                       <label for="field-email"></label>
-                      <input class="input" id="field-email" type="text" name="email" placeholder="E-mail">
+                      <input class="input input--select" id="field-email" type="text" name="email" placeholder="E-mail">
                     </li>
                   </ul>
                 </fieldset>
-                <div class="form__check">
-                  <input class="form__checkebox" id="feild-checkbox" type="checkbox" name="Agree">
+                <div class="checkbox">
+                  <input class="checkbox__input" id="feild-checkbox" type="checkbox" name="Agree">
                   <label for="feild-checkbox">Я соглашаюсь с «Правилами обработки персональных данных«</label>
                 </div>
                 <button class="button" type="submit" name="button">Отправить анкету</button>
@@ -101,8 +103,5 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-
-    </footer>
   </body>
 </html>

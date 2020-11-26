@@ -8,32 +8,10 @@ body {
 
 .page-body {
   position: relative;
-
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 19px;
   line-height: 26px;
-
-  background-image:
-  linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)),
-  url("../img/body/bodyback.png");
-
-  background-repeat: no-repeat;
-  background-position: 100% 0;
-  background-size: cover;
-
-
-  &::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(180deg, #252D38 3.12%, rgba(37, 45, 56, 0) 100%);
-    transform: rotate(-180deg);
-  }
-
+  background-color: #252D38;
 }

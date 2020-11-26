@@ -1,4 +1,4 @@
-.input::-webkit-input-placeholder {
+.input--select::-webkit-input-placeholder {
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -6,7 +6,7 @@
   line-height: 0.8rem;
   color: $greyColor;
 }
-.input::-moz-placeholder {
+.input--select::-moz-placeholder {
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -14,7 +14,7 @@
   line-height: 0.8rem;
   color: $greyColor;
 }
-.input:-ms-input-placeholder {
+.input--select:-ms-input-placeholder {
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -22,7 +22,7 @@
   line-height: 0.8rem;
   color: $greyColor;
 }
-.input::-ms-input-placeholder {
+.input--select::-ms-input-placeholder {
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -32,7 +32,7 @@
   align-items: center;
   color: $greyColor;
 }
-.input::placeholder {
+.input--select::placeholder {
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -42,8 +42,17 @@
 }
 
 
-.input,
-.select {
+.input-list {
+  list-style: none;
+}
+
+.input-list__item {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+
+.input--select {
   width: 100%;
   padding: 19px 16px 16px 15px;
   background: #F2F4F7;
