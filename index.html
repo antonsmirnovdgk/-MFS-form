@@ -18,71 +18,73 @@
           <h1 class="promo-title">Заполни анкету  и присоединяйся к нашей команде!</h1>
         </div>
       </section>
-      <section class="form">
+      <section class="description">
         <h2 class="visually-hidden">Форма заявки</h2>
         <div class="container">
-          <div class="form__wrapper">
-            <div class="form__column-list">
-              <ul class="form__list">
-                <li class="form__item">Построили свыше  21 млн м² жилья</li>
-                <li class="form__item">Запустили проекты в 10 регионах России</li>
-                <li class="form__item">В наших квартирах живёт более 340 000 семей</li>
-                <li class="form__item">В работе над проектами задействовано более 20 000 сотрудников. У нас одна из 10 крупнейших архитектурных фирм в мире</li>
-                <li class="form__item">У нас одна из 10 крупнейших архитектурных фирм в мире</li>
+          <div class="description__wrapper">
+            <div class="description__column-text">
+              <ul class="description__list">
+                <li class="description__item">Построили свыше  21 млн м² жилья</li>
+                <li class="description__item">Запустили проекты в 10 регионах России</li>
+                <li class="description__item">В наших квартирах живёт более 340 000 семей</li>
+                <li class="description__item">В работе над проектами задействовано более 20 000 сотрудников. У нас одна из 10 крупнейших архитектурных фирм в мире</li>
+                <li class="description__item">У нас одна из 10 крупнейших архитектурных фирм в мире</li>
               </ul>
             </div>
-            <div class="form__column-desc">
-              <form class="form__main" action="index.html" method="post">
-                <fieldset class="form-info">
-                  <ul class="form-info__list">
-                    <li class="form-info__item">
+            <div class="description__column-data">
+              <form class="form" action="index.html" method="post">
+                <fieldset class="form__info">
+                  <ul class="form__info-list">
+                    <li class="form__info-item">
                       <label for="field-lastname"></label>
                       <input id="field-lastname" type="text" name="lastname" placeholder="Фамилия">
                     </li>
-                    <li class="form-info__item">
+                    <li class="form__info-item">
                       <label for="field-name"></label>
                       <input id="field-name" type="text" name="name" placeholder="Имя">
                     </li>
-                    <li class="form-info__item">
+                    <li class="form__info-item">
                       <label for="field-surname"></label>
                       <input id="field-surname" type="text" name="surname" placeholder="Отчество">
                     </li>
-                    <li class="form-info__item">
+                    <li class="form__info-item">
                       <label for="field-age"></label>
                       <input id="field-age" type="text" name="age" placeholder="Возвраст">
                     </li>
-                    <li class="form-info__item form-select--arrow">
-                      <select class="form-info__select" name="Пол">
+                  </ul>
+                  <ul class="select__list">
+                    <li class="select__item select--arrow">
+                      <select class="select" name="Пол">
                         <option value="Пол">Пол</option>
                         <option value="Мужской">Мужской</option>
                         <option value="Женский">Женский</option>
                       </select>
                     </li>
-                    <li class="form-info__item form-select--arrow">
-                      <select class="form-info__select" name="Гражданство">
+                    <li class="select__item select--arrow">
+                      <select class="select" name="Гражданство">
                         <option value="">Гражданство</option>
                       </select>
                     </li>
-                    <li class="form-info__item form-select--arrow">
-                      <select class="form-info__select" name="Образование">
+                    <li class="select__item select--arrow">
+                      <select class="select" name="Образование">
                         <option value="Образование">Образование</option>
                       </select>
                     </li>
-                    <li class="form-info__item form-select--arrow">
-                      <select class="form-info__select" name="Город">
+                    <li class="select__item select--arrow">
+                      <select class="select" name="Город">
                         <option value="Город">Город</option>
                       </select>
                     </li>
                   </ul>
                 </fieldset>
-                <fieldset class="form-contact">
-                  <legend class="form-contact__title">Контактные данные</legend>
-                  <ul class="form-contact__list">
-                    <li class="form-contact__item">
+                <fieldset class="form__contact">
+                  <legend class="form__contact-title">Контактные данные</legend>
+                  <ul class="form__contact-list">
+                    <li class="form__contact-item">
                       <label for="field-number"></label>
                       <input id="field-number" type="text" name="number" placeholder="Номер телефона">
                     </li>
-                    <li class="form-contact__item">
+                    <li class="form__contact-item">
                       <label for="field-email"></label>
                       <input id="field-email" type="text" name="email" placeholder="E-mail">
                     </li>
@@ -92,7 +94,7 @@
                   <input class="form__checkebox" id="feild-checkbox" type="checkbox" name="Agree">
                   <label for="feild-checkbox">Я соглашаюсь с «Правилами обработки персональных данных«</label>
                 </div>
-                <button class="form__button" type="button" name="button">Отправить анкету</button>
+                <button class="button" type="button" name="button">Отправить анкету</button>
               </form>
             </div>
           </div>

@@ -1,4 +1,14 @@
-.form-info__select {
+.select__list {
+  list-style: none;
+}
+
+.select__item {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+
+.select {
   position: relative;
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
@@ -6,11 +16,10 @@
   font-size: 0.9rem;
   line-height: 0.8rem;
   outline: none;
-  color: $grey-color;
-
+  color: $greyColor;
 }
 
-.form-select--arrow::after {
+.select--arrow::after {
   content: "";
   position: absolute;
   right: 0;

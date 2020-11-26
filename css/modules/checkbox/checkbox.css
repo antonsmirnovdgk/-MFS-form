@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$checkbox-text".
+Error: Undefined variable: "$checkboxText".
         on line 14 of sass/modules/checkbox/checkbox.scss
 
 9: }
@@ -7,7 +7,7 @@ Error: Undefined variable: "$checkbox-text".
 11: .form__checkebox + label {
 12:   font-size: 0.7rem;
 13:   line-height: 0.76rem;
-14:   color: $checkbox-text;
+14:   color: $checkboxText;
 15: 
 16:   @media (max-width: $modile-width) {
 17:     font-size: 0.6rem;
@@ -69,4 +69,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$checkbox-text\".\A         on line 14 of sass/modules/checkbox/checkbox.scss\A \A 9: }\A 10: \A 11: .form__checkebox + label {\A 12:   font-size: 0.7rem;\A 13:   line-height: 0.76rem;\A 14:   color: $checkbox-text;\A 15: \A 16:   @media (max-width: $modile-width) {\A 17:     font-size: 0.6rem;\A 18:     line-height: 0.5rem;\A 19:   }"; }
+  content: "Error: Undefined variable: \"$checkboxText\".\A         on line 14 of sass/modules/checkbox/checkbox.scss\A \A 9: }\A 10: \A 11: .form__checkebox + label {\A 12:   font-size: 0.7rem;\A 13:   line-height: 0.76rem;\A 14:   color: $checkboxText;\A 15: \A 16:   @media (max-width: $modile-width) {\A 17:     font-size: 0.6rem;\A 18:     line-height: 0.5rem;\A 19:   }"; }

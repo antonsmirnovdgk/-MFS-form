@@ -400,35 +400,35 @@ body {
       font-size: 1.6rem;
       line-height: 1.4rem; } }
 
-.form {
+.description {
   padding-bottom: 163px; }
   @media (max-width: 768px) {
-    .form .container {
+    .description .container {
       padding: 0; } }
 
-.form__wrapper {
+.description__wrapper {
   display: flex;
   justify-content: flex-start; }
   @media (max-width: 768px) {
-    .form__wrapper {
+    .description__wrapper {
       display: block; } }
 
-.form__list {
-  list-style: none; }
-
-.form__column-list {
+.description__column-text {
   width: 39%;
   max-width: 100%;
   margin-right: 3%; }
   @media (max-width: 768px) {
-    .form__column-list {
+    .description__column-text {
       width: auto;
       padding-left: 24px;
       padding-right: 24px;
       margin-right: 0;
       margin-bottom: 63px; } }
 
-.form__item {
+.description__list {
+  list-style: none; }
+
+.description__item {
   position: relative;
   padding-left: 60px;
   margin-bottom: 38px;
@@ -436,7 +436,7 @@ body {
   font-size: 1rem;
   line-height: 1rem;
   color: #ffffff; }
-  .form__item::before {
+  .description__item::before {
     content: " ";
     position: absolute;
     width: 40px;
@@ -446,24 +446,24 @@ body {
     background-image: url(../img/svg/svg.svg);
     background-repeat: no-repeat; }
   @media (max-width: 768px) {
-    .form__item {
+    .description__item {
       margin-bottom: 32px;
       font-size: 0.8rem;
       line-height: 0.84rem; } }
 
-.form__column-desc {
+.description__column-data {
   width: 58%;
   max-width: 100%; }
   @media (max-width: 768px) {
-    .form__column-desc {
+    .description__column-data {
       width: auto; } }
 
-.form__main {
+.form {
   padding: 32px;
   background-color: #ffffff;
   border-radius: 16px; }
   @media (max-width: 768px) {
-    .form__main {
+    .form {
       padding: 24px; } }
 
 .form-info {
@@ -476,6 +476,28 @@ body {
 
 .form-info__item {
   position: relative;
+  margin-bottom: 24px; }
+
+.form-contact {
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+.form-contact__title {
+  margin-bottom: 32px;
+  font-family: "Graphik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 0.5rem;
+  display: flex;
+  align-items: center;
+  color: #000000; }
+
+.form-contact__list {
+  list-style: none; }
+
+.form-contact__item {
   margin-bottom: 24px; }
 
 input::-webkit-input-placeholder {
@@ -529,19 +551,31 @@ input::placeholder {
   color: #4d4d4d; }
 
 input[type="text"],
-.form-info__select {
+.select {
   width: 100%;
   padding: 19px 16px 16px 15px;
   background: #F2F4F7;
   border-radius: 4px;
   border: none; }
 
-.form-contact {
+.form__info {
+  padding: 0;
+  margin-bottom: 64px;
+  border: none; }
+
+.form__info-list {
+  list-style: none; }
+
+.form__info-item {
+  position: relative;
+  margin-bottom: 24px; }
+
+.form__contact {
   border: none;
   margin: 0;
   padding: 0; }
 
-.form-contact__title {
+.form__contact-title {
   margin-bottom: 32px;
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
@@ -552,13 +586,13 @@ input[type="text"],
   align-items: center;
   color: #000000; }
 
-.form-contact__list {
+.form__contact-list {
   list-style: none; }
 
-.form-contact__item {
+.form__contact-item {
   margin-bottom: 24px; }
 
-.form__button {
+.button {
   padding: 20px 0;
   width: 100%;
   background: #ff6432;
@@ -571,9 +605,9 @@ input[type="text"],
   line-height: 16px;
   color: #ffffff;
   cursor: pointer; }
-  .form__button:hover, .form__button:focus {
+  .button:hover, .button:focus {
     opacity: 0.8; }
-  .form__button:active {
+  .button:active {
     opacity: 0.6; }
 
 .form__check {
@@ -614,7 +648,14 @@ input[type="checkbox"]:checked + label:before {
   height: 24px;
   background-image: url("../img/svg/checkbox/checkbox-checked.svg"); }
 
-.form-info__select {
+.select__list {
+  list-style: none; }
+
+.select__item {
+  position: relative;
+  margin-bottom: 24px; }
+
+.select {
   position: relative;
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
@@ -624,7 +665,7 @@ input[type="checkbox"]:checked + label:before {
   outline: none;
   color: #4d4d4d; }
 
-.form-select--arrow::after {
+.select--arrow::after {
   content: "";
   position: absolute;
   right: 0;

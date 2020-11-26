@@ -1,8 +1,23 @@
-.form__list {
-  list-style: none;
+.description{
+  padding-bottom: 163px;
+
+  @media (max-width: $tablet-width) {
+    .container {
+      padding: 0;
+    }
+  }
 }
 
-.form__column-list {
+.description__wrapper {
+  display: flex;
+  justify-content: flex-start;
+
+  @media (max-width: $tablet-width) {
+    display: block;
+  }
+}
+
+.description__column-text {
   width: 39%;
   max-width: 100%;
   margin-right: 3%;
@@ -16,7 +31,11 @@
   }
 }
 
-.form__item {
+.description__list {
+  list-style: none;
+}
+
+.description__item {
   position: relative;
 
   padding-left: 60px;
@@ -25,7 +44,7 @@
   font-weight: 500;
   font-size: 1rem;
   line-height: 1rem;
-  color: $white-color;
+  color: $whiteColor;
 
 
   &::before {
@@ -44,5 +63,15 @@
 
     font-size: 0.8rem;
     line-height: 0.84rem;
+  }
+}
+
+
+.description__column-data {
+  width: 58%;
+  max-width: 100%;
+
+  @media (max-width: $tablet-width) {
+    width: auto;
   }
 }
