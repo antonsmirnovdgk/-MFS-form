@@ -219,7 +219,7 @@ input::placeholder {
 input[type="text"],
 .form-info__select {
   width: 100%;
-  padding: 19px 0 16px 15px;
+  padding: 19px 16px 16px 15px;
   background: #F2F4F7;
   border-radius: 4px;
   border: none; }
@@ -302,7 +302,7 @@ input[type="checkbox"]:checked + label:before {
   height: 24px;
   background-image: url("../img/svg/checkbox/checkbox-checked.svg"); }
 
-.form-name__select {
+.form-info__select {
   position: relative;
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
@@ -312,7 +312,7 @@ input[type="checkbox"]:checked + label:before {
   outline: none;
   color: #4d4d4d; }
 
-.form-name--arrow::after {
+.form-select--arrow::after {
   content: "";
   position: absolute;
   right: 0;

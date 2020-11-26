@@ -1,4 +1,4 @@
-.form-name__select {
+.form-info__select {
   position: relative;
   font-family: "Graphik", "Arial", sans-serif;
   font-style: normal;
@@ -8,7 +8,7 @@
   outline: none;
   color: #4d4d4d; }
 
-.form-name--arrow::after {
+.form-select--arrow::after {
   content: "";
   position: absolute;
   right: 0;
