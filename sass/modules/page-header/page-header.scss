@@ -8,7 +8,7 @@
 
   font-weight: 600;
   font-size: 1.2rem;
-  line-height: 0.8rem;
+  line-height: 1.8rem;
   color: $whiteColor;
 
   text-decoration: none;
@@ -25,6 +25,6 @@
   @media (max-width: $modile-width) {
     width: 150px;
     font-size: 0.7rem;
-    line-height: 0.6rem;
+    line-height: 1rem;
   }
 }

@@ -4,11 +4,12 @@ Error: Undefined variable: "$whiteColor".
         from line 4 of sass/modules/modules.scss
 
 7: @import "form/form";
-8: @import "info/info";
-9: @import "contact/contacts";
-10: @import "button/button";
-11: @import "checkbox/checkbox";
-12: @import "select/select";
+8: @import "input/input";
+9: @import "info/info";
+10: @import "contact/contacts";
+11: @import "button/button";
+12: @import "checkbox/checkbox";
+13: @import "select/select";
 
 Backtrace:
 sass/modules/page-header/page-header.scss:12
@@ -79,4 +80,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$whiteColor\".\A         on line 12 of sass/modules/page-header/page-header.scss\A         from line 4 of sass/modules/modules.scss\A \A 7: @import \"form/form\";\A 8: @import \"info/info\";\A 9: @import \"contact/contacts\";\A 10: @import \"button/button\";\A 11: @import \"checkbox/checkbox\";\A 12: @import \"select/select\";"; }
+  content: "Error: Undefined variable: \"$whiteColor\".\A         on line 12 of sass/modules/page-header/page-header.scss\A         from line 4 of sass/modules/modules.scss\A \A 7: @import \"form/form\";\A 8: @import \"input/input\";\A 9: @import \"info/info\";\A 10: @import \"contact/contacts\";\A 11: @import \"button/button\";\A 12: @import \"checkbox/checkbox\";\A 13: @import \"select/select\";"; }

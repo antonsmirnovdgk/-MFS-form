@@ -19,14 +19,14 @@
   }
 }
 
-input[type="checkbox"]{
+.form__checkebox{
   position: absolute;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
 }
 
-input[type="checkbox"] ~ label:before {
+.form__checkebox ~ label:before {
   content: " ";
   position: absolute;
   display: inline-block;
@@ -37,7 +37,7 @@ input[type="checkbox"] ~ label:before {
   cursor: pointer;
 }
 
-input[type="checkbox"]:checked + label:before {
+.form__checkebox:checked + label:before {
   width: 24px;
   height: 24px;
   background-image: url("../img/svg/checkbox/checkbox-checked.svg")

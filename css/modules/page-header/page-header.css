@@ -6,7 +6,7 @@ Error: Undefined variable: "$whiteColor".
 8: 
 9:   font-weight: 600;
 10:   font-size: 1.2rem;
-11:   line-height: 0.8rem;
+11:   line-height: 1.8rem;
 12:   color: $whiteColor;
 13: 
 14:   text-decoration: none;
@@ -69,4 +69,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$whiteColor\".\A         on line 12 of sass/modules/page-header/page-header.scss\A \A 7:   padding-top: 64px;\A 8: \A 9:   font-weight: 600;\A 10:   font-size: 1.2rem;\A 11:   line-height: 0.8rem;\A 12:   color: $whiteColor;\A 13: \A 14:   text-decoration: none;\A 15: \A 16:   &:hover,\A 17:   &:focus {"; }
+  content: "Error: Undefined variable: \"$whiteColor\".\A         on line 12 of sass/modules/page-header/page-header.scss\A \A 7:   padding-top: 64px;\A 8: \A 9:   font-weight: 600;\A 10:   font-size: 1.2rem;\A 11:   line-height: 1.8rem;\A 12:   color: $whiteColor;\A 13: \A 14:   text-decoration: none;\A 15: \A 16:   &:hover,\A 17:   &:focus {"; }

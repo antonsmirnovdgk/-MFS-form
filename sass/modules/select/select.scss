@@ -14,7 +14,6 @@
   font-style: normal;
   font-weight: normal;
   font-size: 0.9rem;
-  line-height: 0.8rem;
   outline: none;
   color: $greyColor;
 }
@@ -30,12 +29,12 @@
   background-repeat: no-repeat;
 }
 
-select::-ms-expand {
+.select::-ms-expand {
     display: none;
 }
 
 
-select {
+.select {
   /* for Firefox */
   -moz-appearance: none;
   /* for Chrome */
