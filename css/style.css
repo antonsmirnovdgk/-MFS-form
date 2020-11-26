@@ -435,7 +435,7 @@ body {
   font-weight: 500;
   font-size: 19px;
   line-height: 26px;
-  color: #FFFFFF; }
+  color: #ffffff; }
   .form__item::before {
     content: " ";
     position: absolute;

@@ -41,7 +41,7 @@ input::-webkit-input-placeholder {
   line-height: 22px;
   display: flex;
   align-items: center;
-  color: #4d4d4d;
+  color: $grey-color;
 }
 input::-moz-placeholder {
   font-family: "Graphik", "Arial", sans-serif;
@@ -51,7 +51,7 @@ input::-moz-placeholder {
   line-height: 22px;
   display: flex;
   align-items: center;
-  color: #4d4d4d;
+  color: $grey-color;
 }
 input:-ms-input-placeholder {
   font-family: "Graphik", "Arial", sans-serif;
@@ -61,7 +61,7 @@ input:-ms-input-placeholder {
   line-height: 22px;
   display: flex;
   align-items: center;
-  color: #4d4d4d;
+  color: $grey-color;
 }
 input::-ms-input-placeholder {
   font-family: "Graphik", "Arial", sans-serif;
@@ -71,7 +71,7 @@ input::-ms-input-placeholder {
   line-height: 22px;
   display: flex;
   align-items: center;
-  color: #4d4d4d;
+  color: $grey-color;
 }
 input::placeholder {
   font-family: "Graphik", "Arial", sans-serif;
@@ -81,7 +81,7 @@ input::placeholder {
   line-height: 22px;
   display: flex;
   align-items: center;
-  color: #4d4d4d;
+  color: $grey-color;
 }
 
 

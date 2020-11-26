@@ -11,7 +11,7 @@
 .form__checkebox + label {
   font-size: 14px;
   line-height: 20px;
-  color: #222222;
+  color: $checkbox-text;
 
   @media (max-width: 375px) {
     font-size: 12px;
