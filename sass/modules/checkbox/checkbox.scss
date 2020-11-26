@@ -9,13 +9,13 @@
 }
 
 .form__checkebox + label {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.7rem;
+  line-height: 0.76rem;
   color: $checkbox-text;
 
-  @media (max-width: 375px) {
-    font-size: 12px;
-    line-height: 14px;
+  @media (max-width: $modile-width) {
+    font-size: 0.6rem;
+    line-height: 0.5rem;
   }
 }
 

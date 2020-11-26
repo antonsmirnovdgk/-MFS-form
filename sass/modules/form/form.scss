@@ -1,7 +1,7 @@
 .form {
   padding-bottom: 163px;
 
-  @media (max-width: 768px) {
+  @media (max-width: $tablet-width) {
     .container {
       padding: 0;
     }
@@ -12,7 +12,7 @@
   display: flex;
   justify-content: flex-start;
 
-  @media (max-width: 768px) {
+  @media (max-width: $tablet-width) {
     display: block;
   }
 }

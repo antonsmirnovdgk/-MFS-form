@@ -3,8 +3,8 @@ Error: Undefined variable: "$black-color".
         on line 17 of sass/modules/form-contact/form-contact.scss
 
 12:   font-weight: 500;
-13:   font-size: 24px;
-14:   line-height: 14px;
+13:   font-size: 1.2rem;
+14:   line-height: 0.5rem;
 15:   display: flex;
 16:   align-items: center;
 17:   color: $black-color;
@@ -69,4 +69,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black-color\".\A         on line 17 of sass/modules/form-contact/form-contact.scss\A \A 12:   font-weight: 500;\A 13:   font-size: 24px;\A 14:   line-height: 14px;\A 15:   display: flex;\A 16:   align-items: center;\A 17:   color: $black-color;\A 18: \A 19: }\A 20: \A 21: .form-contact__list {\A 22:   list-style: none;"; }
+  content: "Error: Undefined variable: \"$black-color\".\A         on line 17 of sass/modules/form-contact/form-contact.scss\A \A 12:   font-weight: 500;\A 13:   font-size: 1.2rem;\A 14:   line-height: 0.5rem;\A 15:   display: flex;\A 16:   align-items: center;\A 17:   color: $black-color;\A 18: \A 19: }\A 20: \A 21: .form-contact__list {\A 22:   list-style: none;"; }
