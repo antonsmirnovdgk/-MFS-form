@@ -5,6 +5,24 @@
   border-radius: 16px;
   font-size: 0.9rem;
 
+  &__fieldset {
+    padding: 0;
+    margin-bottom: 64px;
+    border: none;
+  }
+
+  &__title {
+    margin-bottom: 32px;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: $black;
+  }
+
   @media (min-width: $tablet-width) {
     padding: 32px;
   }

@@ -1,10 +1,10 @@
 .description{
   position: relative;
-  padding: 0;
+  padding-bottom: 163px;
 
-  @media (min-width: $tablet-width) {
+  @media (max-width: $tablet-width) {
     .container {
-      padding-bottom: 163px;
+      padding: 0;
     }
   }
 
@@ -16,40 +16,40 @@
     background: linear-gradient(180deg, #252D38 3.12%, rgba(37, 45, 56, 0) 100%);
     transform: rotate(-180deg);
   }
-}
 
-.description__wrapper {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  &__wrapper {
 
-  @media (min-width: $tablet-width) {
-    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    @media (min-width: $tablet-width) {
+      flex-direction: row;
+    }
   }
-}
 
-.description__column-text {
-  position: relative;
-  width: auto;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin-right: 0;
-  margin-bottom: 63px;
+  &__column-text {
+    position: relative;
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
 
-  @media (min-width: $tablet-width) {
-    width: 39%;
-    margin-right: 3%;
+    @media (min-width: $tablet-width) {
+      width: 39%;
+      margin-right: 3%;
+      max-width: 100%;
+    }
+  }
+
+  &__column-data {
+    position: relative;
+    width: auto;
     max-width: 100%;
-  }
-}
 
-
-.description__column-data {
-  position: relative;
-  width: auto;
-  max-width: 100%;
-
-  @media (min-width: $tablet-width) {
-    width: 58%;
+    @media (min-width: $tablet-width) {
+      width: 58%;
+    }
   }
 }

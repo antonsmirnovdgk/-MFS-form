@@ -1,10 +1,10 @@
 .input-list {
   list-style: none;
-}
 
-.input-list__item {
-  position: relative;
-  margin-bottom: 24px;
+  &__item {
+    position: relative;
+    margin-bottom: 24px;
+  }
 }
 
 .input--select {
