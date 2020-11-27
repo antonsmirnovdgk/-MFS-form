@@ -1,4 +1,4 @@
-.content{
+.content {
   position: relative;
   padding-bottom: 163px;
 
@@ -16,12 +16,15 @@
     content: " ";
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, #252D38 3.12%, rgba(37, 45, 56, 0) 100%);
+    background: linear-gradient(
+      180deg,
+      #252d38 3.12%,
+      rgba(37, 45, 56, 0) 100%
+    );
     transform: rotate(-180deg);
   }
 
   &__wrapper {
-
     display: flex;
     justify-content: flex-start;
     flex-direction: column;

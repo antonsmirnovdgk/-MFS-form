@@ -6,36 +6,35 @@
   &__input {
     position: absolute;
     -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 
-            & + label {
-              font-size: 0.7rem;
-              line-height: 0.76rem;
-              color: $silver;
+    & + label {
+      font-size: 0.7rem;
+      line-height: 0.76rem;
+      color: $silver;
 
-              &:before {
-                content: " ";
-                position: absolute;
-                display: inline-block;
-                width: 24px;
-                height: 24px;
-                left: 0;
-                background-image: url("../svg/checkbox/checkbox.svg");
-                cursor: pointer;
-              }
+      &:before {
+        content: " ";
+        position: absolute;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        left: 0;
+        background-image: url("../svg/checkbox/checkbox.svg");
+        cursor: pointer;
+      }
 
-              @media (max-width: $mobile-width) {
-                font-size: 0.6rem;
-                line-height: 0.5rem;
-            }
-          }
+      @media (max-width: $mobile-width) {
+        font-size: 0.6rem;
+        line-height: 0.5rem;
+      }
+    }
 
-          &:checked + label::before {
-            width: 24px;
-            height: 24px;
-            background-image: url("../svg/checkbox/checkbox-checked.svg")
-          }
-
+    &:checked + label::before {
+      width: 24px;
+      height: 24px;
+      background-image: url("../svg/checkbox/checkbox-checked.svg");
+    }
   }
 }
