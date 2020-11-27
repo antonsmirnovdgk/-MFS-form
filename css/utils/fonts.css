@@ -3,18 +3,18 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local("Manrope-SemiBold"), url("../../fonts/Manrope-SemiBold.ttf") format("truetype"); }
+  src: local("Manrope-SemiBold"), url("../../fonts/Manrope/Manrope-SemiBold.woff2") format("woff2"), url("../../fonts/Manrope/Manrope-SemiBold.woff") format("woff"); }
 @font-face {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("Manrope-Medium"), url("../../fonts/Manrope-Medium.ttf") format("truetype"); }
+  src: local("Manrope-Medium"), url("../../fonts/Manrope/Manrope-Medium.woff2") format("woff2"), url("../../fonts/Manrope/Manrope-Medium.woff") format("woff"); }
 @font-face {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Manrope-Regular"), url("../../fonts/Manrope-Regular.ttf") format("truetype"); }
+  src: local("Manrope-Regular"), url("../../fonts/Manrope/Manrope-Regular.woff2") format("woff2"), url("../../fonts/Manrope/Manrope-Regular.woff") format("woff"); }
 
 /*# sourceMappingURL=fonts.css.map */

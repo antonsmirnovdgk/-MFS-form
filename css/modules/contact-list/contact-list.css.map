@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,aAAc;EACZ,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;EAEhB,mBAAQ;IACN,aAAa,EAAE,IAAI",
-"sources": ["../../../sass/modules/contact-list/contact-list.scss"],
-"names": [],
-"file": "contact-list.css"
-}

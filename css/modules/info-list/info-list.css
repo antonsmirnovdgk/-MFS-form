@@ -1,0 +1,19 @@
+.info-list {
+  border: none;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .info-list__item {
+    position: relative;
+    margin-bottom: 24px; }
+    .info-list__item--arrow::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 28px;
+      width: 24px;
+      height: 24px;
+      background-image: url("../svg/select/down-arrow.svg");
+      background-repeat: no-repeat; }
+
+/*# sourceMappingURL=info-list.css.map */
