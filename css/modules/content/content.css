@@ -1,20 +1,21 @@
 /*
 Error: Undefined variable: "$tablet-width".
-        on line 5 of sass/modules/description/description.scss
+        on line 8 of sass/modules/content/content.scss
 
-1: .description{
-2:   position: relative;
 3:   padding-bottom: 163px;
 4: 
-5:   @media (max-width: $tablet-width) {
-6:     .container {
-7:       padding: 0;
-8:     }
-9:   }
-10: 
+5:   .container {
+6:     padding: 0;
+7: 
+8:     @media (min-width: $tablet-width) {
+9:       padding-left: 24px;
+10:       padding-right: 24px;
+11:     }
+12:   }
+13: 
 
 Backtrace:
-sass/modules/description/description.scss:5
+sass/modules/content/content.scss:8
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:551:in `block in run_interp_no_strip'
@@ -22,6 +23,17 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:549:in `run_interp_no_strip'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:556:in `run_interp'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:521:in `visit_media'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
@@ -72,4 +84,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 5 of sass/modules/description/description.scss\A \A 1: .description{\A 2:   position: relative;\A 3:   padding-bottom: 163px;\A 4: \A 5:   @media (max-width: $tablet-width) {\A 6:     .container {\A 7:       padding: 0;\A 8:     }\A 9:   }\A 10: "; }
+  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 8 of sass/modules/content/content.scss\A \A 3:   padding-bottom: 163px;\A 4: \A 5:   .container {\A 6:     padding: 0;\A 7: \A 8:     @media (min-width: $tablet-width) {\A 9:       padding-left: 24px;\A 10:       padding-right: 24px;\A 11:     }\A 12:   }\A 13: "; }

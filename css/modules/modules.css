@@ -11,8 +11,8 @@ Error: Undefined variable: "$white".
 6: @import "promo/promo";
 7: @import "description/description";
 8: @import "list/list";
-9: @import "info-list";
-10: @import "form/form";
+9: @import "form/form";
+10: @import "info-list/info-list";
 
 Backtrace:
 sass/modules/logo/logo.scss:5
@@ -83,4 +83,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 5 of sass/modules/logo/logo.scss\A         from line 3 of sass/modules/modules.scss\A \A 1: @import \"visually-hidden/visually-hidden\";\A 2: @import \"container/container\";\A 3: @import \"logo/logo\";\A 4: @import \"page-body/page-body\";\A 5: @import \"header/header\";\A 6: @import \"promo/promo\";\A 7: @import \"description/description\";\A 8: @import \"list/list\";\A 9: @import \"info-list\";\A 10: @import \"form/form\";"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 5 of sass/modules/logo/logo.scss\A         from line 3 of sass/modules/modules.scss\A \A 1: @import \"visually-hidden/visually-hidden\";\A 2: @import \"container/container\";\A 3: @import \"logo/logo\";\A 4: @import \"page-body/page-body\";\A 5: @import \"header/header\";\A 6: @import \"promo/promo\";\A 7: @import \"description/description\";\A 8: @import \"list/list\";\A 9: @import \"form/form\";\A 10: @import \"info-list/info-list\";"; }

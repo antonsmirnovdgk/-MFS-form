@@ -3,6 +3,12 @@
   -moz-appearance: none;
   /* for Chrome */
   -webkit-appearance: none;
+
+  width: 100%;
+  padding: 19px 16px 16px 15px;
+  background: #F2F4F7;
+  border-radius: 4px;
+  border: none;
 }
 
 .select::-ms-expand {
