@@ -1,11 +1,11 @@
 .form{
   width: 100%;
-  padding: 32px;
+  padding: 24px;
   background-color: $white;
   border-radius: 16px;
   font-size: 0.9rem;
 
-  @media (max-width: $tablet-width) {
-    padding: 24px;
+  @media (min-width: $tablet-width) {
+    padding: 32px;
   }
 }

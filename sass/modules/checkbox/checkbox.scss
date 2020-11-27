@@ -4,7 +4,7 @@
   margin-bottom: 32px;
 }
 
-.checkbox__ipout + label {
+.checkbox__input + label {
   font-size: 0.7rem;
   line-height: 0.76rem;
   color: $silver;
@@ -15,26 +15,26 @@
   }
 }
 
-.checkbox__ipout{
+.checkbox__input{
   position: absolute;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
 }
 
-.checkbox__ipout ~ label:before {
+.checkbox__input ~ label:before {
   content: " ";
   position: absolute;
   display: inline-block;
   width: 24px;
   height: 24px;
   left: 0;
-  background-image: url("../img/svg/checkbox/checkbox.svg");
+  background-image: url("../svg/checkbox/checkbox.svg");
   cursor: pointer;
 }
 
-.checkbox__ipout:checked + label:before {
+.checkbox__input:checked + label:before {
   width: 24px;
   height: 24px;
-  background-image: url("../img/svg/checkbox/checkbox-checked.svg")
+  background-image: url("../svg/checkbox/checkbox-checked.svg")
 }

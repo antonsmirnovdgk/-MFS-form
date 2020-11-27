@@ -4,11 +4,11 @@ Error: Undefined variable: "$tablet-width".
 
 1: .description{
 2:   position: relative;
-3:   padding-bottom: 163px;
+3:   padding: 0;
 4: 
-5:   @media (max-width: $tablet-width) {
+5:   @media (min-width: $tablet-width) {
 6:     .container {
-7:       padding: 0;
+7:       padding-bottom: 163px;
 8:     }
 9:   }
 10: 
@@ -72,4 +72,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 5 of sass/modules/description/description.scss\A \A 1: .description{\A 2:   position: relative;\A 3:   padding-bottom: 163px;\A 4: \A 5:   @media (max-width: $tablet-width) {\A 6:     .container {\A 7:       padding: 0;\A 8:     }\A 9:   }\A 10: "; }
+  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 5 of sass/modules/description/description.scss\A \A 1: .description{\A 2:   position: relative;\A 3:   padding: 0;\A 4: \A 5:   @media (min-width: $tablet-width) {\A 6:     .container {\A 7:       padding-bottom: 163px;\A 8:     }\A 9:   }\A 10: "; }

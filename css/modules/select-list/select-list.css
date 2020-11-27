@@ -1,3 +1,12 @@
+.select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none; }
+
+.select::-ms-expand {
+  display: none; }
+
 .select-list {
   list-style: none; }
 
@@ -14,14 +23,5 @@
   height: 24px;
   background-image: url("../svg/select/down-arrow.svg");
   background-repeat: no-repeat; }
-
-.select::-ms-expand {
-  display: none; }
-
-.select {
-  /* for Firefox */
-  -moz-appearance: none;
-  /* for Chrome */
-  -webkit-appearance: none; }
 
 /*# sourceMappingURL=select-list.css.map */

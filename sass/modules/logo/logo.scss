@@ -21,10 +21,10 @@
 }
 
 .logo--padding {
-  padding-top: 64px;
+  padding-top: 36px;
 
-  @media (max-width: $mobile-width) {
-    padding-top: 36px;
+  @media (min-width: $mobile-width) {
+    padding-top: 64px;
     width: auto;
   }
 }

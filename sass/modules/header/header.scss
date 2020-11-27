@@ -9,22 +9,22 @@
   z-index: -1;
   height: 100vh;
   width: 100%;
-  background-image:
-  linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)),
-  url("../img/body/bodyback.png");
+  background-image: url("../img/body/bodymobile.png");
+  background-size: contain;
+
 
   background-repeat: no-repeat;
   background-position: 100% 0;
-  background-size: cover;
+
 
 
 }
 
-@media (max-width: $mobile-width) {
+@media (min-width: $mobile-width) {
   .header::before {
-    background-image: url("../img/body/bodymobile.png");
-    background-size: contain;
+    background-image:
+    linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)),
+    url("../img/body/bodyback.png");
+    background-size: cover;
   }
-
-
 }

@@ -2,17 +2,17 @@
 Error: Undefined variable: "$mobile-width".
         on line 23 of sass/modules/header/header.scss
 
-18:   background-size: cover;
+18: 
 19: 
 20: 
 21: }
 22: 
-23: @media (max-width: $mobile-width) {
+23: @media (min-width: $mobile-width) {
 24:   .header::before {
-25:     background-image: url("../img/body/bodymobile.png");
-26:     background-size: contain;
-27:   }
-28: 
+25:     background-image:
+26:     linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)),
+27:     url("../img/body/bodyback.png");
+28:     background-size: cover;
 
 Backtrace:
 sass/modules/header/header.scss:23
@@ -62,4 +62,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$mobile-width\".\A         on line 23 of sass/modules/header/header.scss\A \A 18:   background-size: cover;\A 19: \A 20: \A 21: }\A 22: \A 23: @media (max-width: $mobile-width) {\A 24:   .header::before {\A 25:     background-image: url(\"../img/body/bodymobile.png\");\A 26:     background-size: contain;\A 27:   }\A 28: "; }
+  content: "Error: Undefined variable: \"$mobile-width\".\A         on line 23 of sass/modules/header/header.scss\A \A 18: \A 19: \A 20: \A 21: }\A 22: \A 23: @media (min-width: $mobile-width) {\A 24:   .header::before {\A 25:     background-image:\A 26:     linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)),\A 27:     url(\"../img/body/bodyback.png\");\A 28:     background-size: cover;"; }
