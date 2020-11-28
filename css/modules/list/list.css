@@ -2,17 +2,17 @@
 Error: Undefined variable: "$white".
         on line 11 of sass/modules/list/list.scss
 
-6:   padding-left: 60px;
-7:   margin-bottom: 32px;
-8:   font-weight: 500;
-9:   font-size: 0.8rem;
-10:   line-height: 1.3rem;
-11:   color: $white;
+6:     padding-left: 60px;
+7:     margin-bottom: 32px;
+8:     font-weight: 500;
+9:     font-size: 0.8rem;
+10:     line-height: 1.3rem;
+11:     color: $white;
 12: 
-13:   &::before {
-14:     content: " ";
-15:     position: absolute;
-16:     width: 40px;
+13:     &::before {
+14:       content: " ";
+15:       position: absolute;
+16:       width: 40px;
 
 Backtrace:
 sass/modules/list/list.scss:11
@@ -79,4 +79,4 @@ C:/Ruby26-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 11 of sass/modules/list/list.scss\A \A 6:   padding-left: 60px;\A 7:   margin-bottom: 32px;\A 8:   font-weight: 500;\A 9:   font-size: 0.8rem;\A 10:   line-height: 1.3rem;\A 11:   color: $white;\A 12: \A 13:   &::before {\A 14:     content: \" \";\A 15:     position: absolute;\A 16:     width: 40px;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 11 of sass/modules/list/list.scss\A \A 6:     padding-left: 60px;\A 7:     margin-bottom: 32px;\A 8:     font-weight: 500;\A 9:     font-size: 0.8rem;\A 10:     line-height: 1.3rem;\A 11:     color: $white;\A 12: \A 13:     &::before {\A 14:       content: \" \";\A 15:       position: absolute;\A 16:       width: 40px;"; }

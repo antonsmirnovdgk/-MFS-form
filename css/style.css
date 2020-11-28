@@ -1,72 +1,641 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
 /*
-Error: File to import not found or unreadable: description/description.
-       Load path: C:/works/practise flex/test2/sass
-        on line 7 of sass/modules/modules.scss
-        from line 5 of sass/style.scss
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
 
-2: @import "utils/normalize";
-3: @import "utils/breakpoints";
-4: @import "utils/fonts";
-5: @import "modules/modules";
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
 
-Backtrace:
-sass/modules/modules.scss:7
-sass/style.scss:5
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: description/description.\A        Load path: C:/works/practise flex/test2/sass\A         on line 7 of sass/modules/modules.scss\A         from line 5 of sass/style.scss\A \A 2: @import \"utils/normalize\";\A 3: @import \"utils/breakpoints\";\A 4: @import \"utils/fonts\";\A 5: @import \"modules/modules\";"; }
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Manrope-SemiBold"), url("../../fonts/Manrope/Manrope-SemiBold.woff2") format("woff2"), url("../../fonts/Manrope/Manrope-SemiBold.woff") format("woff"); }
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Manrope-Medium"), url("../../fonts/Manrope/Manrope-Medium.woff2") format("woff2"), url("../../fonts/Manrope/Manrope-Medium.woff") format("woff"); }
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Manrope-Regular"), url("../../fonts/Manrope/Manrope-Regular.woff2") format("woff2"), url("../../fonts/Manrope/Manrope-Regular.woff") format("woff"); }
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px; }
+
+.logo__link {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+  text-decoration: none; }
+  .logo__link:hover, .logo__link:focus {
+    opacity: 0.8; }
+  .logo__link:active {
+    opacity: 0.6; }
+  @media (max-width: 375px) {
+    .logo__link {
+      font-size: 0.8rem; } }
+
+.logo--padding {
+  padding-top: 36px; }
+  @media (min-width: 375px) {
+    .logo--padding {
+      padding-top: 64px;
+      width: auto; } }
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.page-body {
+  position: relative;
+  font-family: "Manrope", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 26px;
+  background-color: #252d38; }
+
+.header {
+  position: relative;
+  margin-bottom: 42px; }
+  .header::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/body/bodymobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 0; }
+    @media (min-width: 375px) {
+      .header::before {
+        background-image: linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)), url("../img/body/bodyback.png");
+        background-size: cover; } }
+
+.promo {
+  margin-bottom: 63px; }
+  @media (min-width: 768px) {
+    .promo {
+      margin-bottom: 72px; } }
+  .promo-title {
+    min-width: 85%;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #ffffff; }
+    @media (min-width: 375px) {
+      .promo-title {
+        font-weight: 600;
+        font-size: 2.2rem;
+        line-height: 2.7rem; } }
+    @media (min-width: 768px) {
+      .promo-title {
+        font-size: 3.6rem;
+        line-height: 4rem; } }
+
+.content {
+  position: relative;
+  padding-bottom: 163px; }
+  .content .container {
+    padding: 0; }
+    @media (min-width: 768px) {
+      .content .container {
+        padding-left: 24px;
+        padding-right: 24px; } }
+  .content::before {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #252d38 3.12%, rgba(37, 45, 56, 0) 100%);
+    transform: rotate(-180deg); }
+  .content__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .content__wrapper {
+        flex-direction: row; } }
+  .content__column-text {
+    position: relative;
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 24px; }
+    @media (min-width: 768px) {
+      .content__column-text {
+        width: 39%;
+        margin-right: 3%;
+        max-width: 100%; } }
+  .content__column-data {
+    position: relative;
+    width: auto;
+    max-width: 100%; }
+    @media (min-width: 768px) {
+      .content__column-data {
+        width: 58%; } }
+
+.list {
+  list-style: none; }
+  .list__item {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    color: #ffffff; }
+    .list__item::before {
+      content: " ";
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      top: 0;
+      left: 0;
+      background-image: url(../svg/list/list-icon.svg);
+      background-repeat: no-repeat; }
+    @media (min-width: 768px) {
+      .list__item {
+        margin-bottom: 38px;
+        font-size: 1rem;
+        line-height: 2rem; } }
+
+.form {
+  width: 100%;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  font-size: 0.9rem; }
+  .form__fieldset {
+    padding: 0;
+    margin-bottom: 64px;
+    border: none; }
+  .form__title {
+    margin-bottom: 32px;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: #000000; }
+  @media (min-width: 768px) {
+    .form {
+      padding: 32px; } }
+
+.info-list {
+  border: none;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .info-list__item {
+    position: relative;
+    margin-bottom: 24px; }
+    .info-list__item--arrow::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 28px;
+      width: 24px;
+      height: 24px;
+      background-image: url("../svg/select/down-arrow.svg");
+      background-repeat: no-repeat; }
+
+.input {
+  width: 100%;
+  padding: 19px 16px 16px 15px;
+  background: #f2f4f7;
+  border-radius: 4px;
+  border: none; }
+
+.input--select::-webkit-input-placeholder {
+  font-family: "Manrope", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
+  color: #4d4d4d; }
+
+.input--select::-moz-placeholder {
+  font-family: "Manrope", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
+  color: #4d4d4d; }
+
+.input--select:-ms-input-placeholder {
+  font-family: "Manrope", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
+  color: #4d4d4d; }
+
+.input--select::-ms-input-placeholder {
+  font-family: "Manrope", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
+  display: flex;
+  align-items: center;
+  color: #4d4d4d; }
+
+.input--select::placeholder {
+  font-family: "Manrope", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
+  color: #4d4d4d; }
+
+.select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+  width: 100%;
+  padding: 19px 16px 16px 15px;
+  background: #f2f4f7;
+  border-radius: 4px;
+  border: none; }
+
+.select::-ms-expand {
+  display: none; }
+
+.checkbox {
+  position: relative;
+  padding-left: 33px;
+  margin-bottom: 32px; }
+  .checkbox__input {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
+    .checkbox__input + label {
+      font-size: 0.7rem;
+      line-height: 0.76rem;
+      color: #222222; }
+      .checkbox__input + label:before {
+        content: " ";
+        position: absolute;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        left: 0;
+        background-image: url("../svg/checkbox/checkbox.svg");
+        cursor: pointer; }
+      @media (max-width: 375px) {
+        .checkbox__input + label {
+          font-size: 0.6rem;
+          line-height: 0.5rem; } }
+    .checkbox__input:checked + label::before {
+      width: 24px;
+      height: 24px;
+      background-image: url("../svg/checkbox/checkbox-checked.svg"); }
+
+.button {
+  padding: 20px 0;
+  width: 100%;
+  background: #ff6432;
+  border: none;
+  border-radius: 4px;
+  font-family: "Graphik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  cursor: pointer; }
+  .button:hover, .button:focus {
+    opacity: 0.8; }
+  .button:active {
+    opacity: 0.6; }
+
+/*# sourceMappingURL=style.css.map */

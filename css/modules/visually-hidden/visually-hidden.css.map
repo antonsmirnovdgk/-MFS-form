@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,gBAAiB;EACf,QAAQ,EAAE,mBAAmB;EAC7B,IAAI,EAAE,qBAAqB;EAAE,cAAc;EAC3C,IAAI,EAAE,wBAAwB;EAC9B,OAAO,EAAC,YAAY;EACpB,MAAM,EAAC,YAAY;EACnB,MAAM,EAAE,cAAc;EACtB,KAAK,EAAE,cAAc;EACrB,QAAQ,EAAE,MAAM",
+"mappings": "AAAA,gBAAiB;EACf,QAAQ,EAAE,mBAAmB;EAC7B,IAAI,EAAE,qBAAqB;EAAE,cAAc;EAC3C,IAAI,EAAE,wBAAwB;EAC9B,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,YAAY;EACpB,MAAM,EAAE,cAAc;EACtB,KAAK,EAAE,cAAc;EACrB,QAAQ,EAAE,MAAM",
 "sources": ["../../../sass/modules/visually-hidden/visually-hidden.scss"],
 "names": [],
 "file": "visually-hidden.css"
