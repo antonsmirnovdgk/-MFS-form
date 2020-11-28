@@ -10,8 +10,8 @@
     appearance: none;
 
     & + label {
-      font-size: 0.7rem;
-      line-height: 0.76rem;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
       color: $silver;
 
       &:before {
@@ -25,16 +25,11 @@
         cursor: pointer;
       }
 
-      @media (max-width: $mobile-width) {
-        font-size: 0.6rem;
-        line-height: 0.5rem;
+      &:checked + label::before {
+        width: 24px;
+        height: 24px;
+        background-image: url("../svg/checkbox/checkbox-checked.svg");
       }
-    }
-
-    &:checked + label::before {
-      width: 24px;
-      height: 24px;
-      background-image: url("../svg/checkbox/checkbox-checked.svg");
     }
   }
 }

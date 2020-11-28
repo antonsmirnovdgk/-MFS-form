@@ -5,11 +5,11 @@
     margin-bottom: 72px;
   }
 
-  &-title {
-    min-width: 85%;
+  &__title {
+    min-width: 96%;
     margin: 0;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 2.4rem;
     color: $white;
 
@@ -20,7 +20,7 @@
     }
 
     @media (min-width: $tablet-width) {
-      font-size: 3.6rem;
+      font-size: 3.7rem;
       line-height: 4rem;
     }
   }

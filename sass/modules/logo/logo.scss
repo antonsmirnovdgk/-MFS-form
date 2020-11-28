@@ -1,7 +1,7 @@
 .logo__link {
   font-weight: 600;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
   color: $white;
 
   text-decoration: none;
@@ -15,8 +15,8 @@
     opacity: 0.6;
   }
 
-  @media (max-width: $mobile-width) {
-    font-size: 0.8rem;
+  @media (min-width: $mobile-width) {
+    font-size: 1.5em;
   }
 }
 

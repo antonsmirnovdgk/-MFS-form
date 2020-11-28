@@ -6,12 +6,13 @@ body {
   box-sizing: border-box;
 }
 
+.html {
+  font-size: 100%;
+}
+
 .page-body {
   position: relative;
   font-family: "Manrope", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 19px;
   line-height: 26px;
   background-color: $dark;
 }

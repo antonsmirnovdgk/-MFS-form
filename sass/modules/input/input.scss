@@ -6,40 +6,6 @@
   border: none;
 }
 
-.input--select::-webkit-input-placeholder {
-  font-family: "Manrope", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.9rem;
-  line-height: 0.8rem;
-  color: $grey;
-}
-.input--select::-moz-placeholder {
-  font-family: "Manrope", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.9rem;
-  line-height: 0.8rem;
-  color: $grey;
-}
-.input--select:-ms-input-placeholder {
-  font-family: "Manrope", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.9rem;
-  line-height: 0.8rem;
-  color: $grey;
-}
-.input--select::-ms-input-placeholder {
-  font-family: "Manrope", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.9rem;
-  line-height: 0.8rem;
-  display: flex;
-  align-items: center;
-  color: $grey;
-}
 .input--select::placeholder {
   font-family: "Manrope", "Arial", sans-serif;
   font-style: normal;
