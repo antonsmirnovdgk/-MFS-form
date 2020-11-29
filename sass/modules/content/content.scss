@@ -6,8 +6,8 @@
     padding: 0;
 
     @media (min-width: $tablet-width) {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
+      padding-left: 2.4rem;
+      padding-right: 2.4rem;
     }
   }
 
@@ -38,15 +38,15 @@
     position: relative;
     width: auto;
     margin-right: 0;
-    margin-bottom: 3.9375rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    margin-bottom: 3.8rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
 
     @media (min-width: $tablet-width) {
-      width: 28.51875rem;
+      width: 39%;
       max-width: 100%;
       padding: 0;
-      margin-right: 2.19375rem;
+      margin-right: 3.6rem;
     }
   }
 
@@ -56,7 +56,7 @@
     max-width: 100%;
 
     @media (min-width: $tablet-width) {
-      width: 42.4125rem;
+      width: 58%;
     }
   }
 }

@@ -1,23 +1,35 @@
 /*
 Error: Undefined variable: "$white".
-        on line 5 of sass/modules/logo/logo.scss
+        on line 7 of sass/modules/logo/logo.scss
 
-1: .logo__link {
-2:   font-weight: 600;
-3:   font-size: 0.875rem;
-4:   line-height: 1.125rem;
-5:   color: $white;
-6: 
-7:   text-decoration: none;
+2:   width: 50%;
+3:   &__link {
+4:     font-weight: 600;
+5:     font-size: 1.4em;
+6:     line-height: 2.4rem;
+7:     color: $white;
 8: 
-9:   &:hover,
-10:   &:focus {
+9:     text-decoration: none;
+10: 
+11:     &:hover,
+12:     &:focus {
 
 Backtrace:
-sass/modules/logo/logo.scss:5
+sass/modules/logo/logo.scss:7
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
@@ -68,4 +80,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 5 of sass/modules/logo/logo.scss\A \A 1: .logo__link {\A 2:   font-weight: 600;\A 3:   font-size: 0.875rem;\A 4:   line-height: 1.125rem;\A 5:   color: $white;\A 6: \A 7:   text-decoration: none;\A 8: \A 9:   &:hover,\A 10:   &:focus {"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 7 of sass/modules/logo/logo.scss\A \A 2:   width: 50%;\A 3:   &__link {\A 4:     font-weight: 600;\A 5:     font-size: 1.4em;\A 6:     line-height: 2.4rem;\A 7:     color: $white;\A 8: \A 9:     text-decoration: none;\A 10: \A 11:     &:hover,\A 12:     &:focus {"; }

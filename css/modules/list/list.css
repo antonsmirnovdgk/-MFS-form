@@ -2,11 +2,11 @@
 Error: Undefined variable: "$white".
         on line 11 of sass/modules/list/list.scss
 
-6:     padding-left: 3.75rem;
-7:     margin-bottom: 2rem;
+6:     padding-left: 5.6rem;
+7:     margin-bottom: 3.2rem;
 8:     font-weight: 500;
-9:     font-size: 1em;
-10:     line-height: 1.375rem;
+9:     font-size: 1.6em;
+10:     line-height: 2.2rem;
 11:     color: $white;
 12: 
 13:     &::before {
@@ -80,4 +80,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 11 of sass/modules/list/list.scss\A \A 6:     padding-left: 3.75rem;\A 7:     margin-bottom: 2rem;\A 8:     font-weight: 500;\A 9:     font-size: 1em;\A 10:     line-height: 1.375rem;\A 11:     color: $white;\A 12: \A 13:     &::before {\A 14:       content: \" \";\A 15:       position: absolute;\A 16:       width: 40px;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 11 of sass/modules/list/list.scss\A \A 6:     padding-left: 5.6rem;\A 7:     margin-bottom: 3.2rem;\A 8:     font-weight: 500;\A 9:     font-size: 1.6em;\A 10:     line-height: 2.2rem;\A 11:     color: $white;\A 12: \A 13:     &::before {\A 14:       content: \" \";\A 15:       position: absolute;\A 16:       width: 40px;"; }

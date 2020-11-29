@@ -1,6 +1,6 @@
 .checkbox {
   position: relative;
-  padding-left: 2.0625rem;
+  padding-left: 3.4rem;
   margin-bottom: 2rem;
 
   &__input {
@@ -10,8 +10,8 @@
     appearance: none;
 
     & + label {
-      font-size: 0.875rem;
-      line-height: 1.25rem;
+      font-size: 1.4em;
+      line-height: 2rem;
       color: $silver;
 
       &:before {

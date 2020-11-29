@@ -5,8 +5,8 @@ Error: Undefined variable: "$silver".
 10:     appearance: none;
 11: 
 12:     & + label {
-13:       font-size: 0.875rem;
-14:       line-height: 1.25rem;
+13:       font-size: 1.4em;
+14:       line-height: 2rem;
 15:       color: $silver;
 16: 
 17:       &:before {
@@ -91,4 +91,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$silver\".\A         on line 15 of sass/modules/checkbox/checkbox.scss\A \A 10:     appearance: none;\A 11: \A 12:     & + label {\A 13:       font-size: 0.875rem;\A 14:       line-height: 1.25rem;\A 15:       color: $silver;\A 16: \A 17:       &:before {\A 18:         content: \" \";\A 19:         position: absolute;\A 20:         display: inline-block;"; }
+  content: "Error: Undefined variable: \"$silver\".\A         on line 15 of sass/modules/checkbox/checkbox.scss\A \A 10:     appearance: none;\A 11: \A 12:     & + label {\A 13:       font-size: 1.4em;\A 14:       line-height: 2rem;\A 15:       color: $silver;\A 16: \A 17:       &:before {\A 18:         content: \" \";\A 19:         position: absolute;\A 20:         display: inline-block;"; }

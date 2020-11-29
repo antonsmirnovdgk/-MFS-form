@@ -3,11 +3,11 @@
 
   &__item {
     position: relative;
-    padding-left: 3.75rem;
-    margin-bottom: 2rem;
+    padding-left: 5.6rem;
+    margin-bottom: 3.2rem;
     font-weight: 500;
-    font-size: 1em;
-    line-height: 1.375rem;
+    font-size: 1.6em;
+    line-height: 2.2rem;
     color: $white;
 
     &::before {
@@ -22,10 +22,10 @@
     }
 
     @media (min-width: $tablet-width) {
-      margin-bottom: 2.25rem;
+      margin-bottom: 3.8rem;
 
-      font-size: 1.1875em;
-      line-height: 1.625rem;
+      font-size: 1.9em;
+      line-height: 2.6rem;
     }
   }
 }
