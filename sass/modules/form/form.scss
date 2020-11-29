@@ -1,28 +1,29 @@
 .form {
   width: 100%;
-  padding: 2.4rem;
+  padding: 1.5rem;
   background-color: $white;
   border-radius: 16px;
 
   &__fieldset {
     padding: 0;
-    margin-bottom: 4rem;
+
     border: none;
   }
 
   &__title {
-    margin-bottom: 3.2rem;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
     font-family: "Manrope", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 2.4em;
-    line-height: 1.4rem;
+    line-height: 0.875rem;
     display: flex;
     align-items: center;
     color: $black;
   }
 
   @media (min-width: $tablet-width) {
-    padding: 3.2rem;
+    padding: 2rem;
   }
 }

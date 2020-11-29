@@ -6,14 +6,10 @@ body {
   box-sizing: border-box;
 }
 
-html {
-  font-size: 10px;
-}
-
 .page-body {
   position: relative;
   font-family: "Manrope", "Arial", sans-serif;
-
+  font-size: 10px;
   color: $white;
   background-color: $dark;
 }
