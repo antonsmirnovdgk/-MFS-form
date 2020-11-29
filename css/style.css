@@ -371,6 +371,7 @@ body {
   position: relative;
   font-family: "Manrope", "Arial", sans-serif;
   font-size: calc(1em + 0.1vw);
+  color: #ffffff;
   background-color: #252d38; }
 
 .header {

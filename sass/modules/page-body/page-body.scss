@@ -9,6 +9,7 @@ body {
 .page-body {
   position: relative;
   font-family: "Manrope", "Arial", sans-serif;
-  font-size: calc(1em + 0.1vw);
+  font-size: 1em;
+  color: $white;
   background-color: $dark;
 }
