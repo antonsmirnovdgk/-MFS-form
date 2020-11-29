@@ -5,7 +5,7 @@ Error: Undefined variable: "$grey".
 10:   font-family: "Manrope", "Arial", sans-serif;
 11:   font-style: normal;
 12:   font-weight: normal;
-13:   font-size: 0.9rem;
+13:   font-size: 0.9em;
 14:   line-height: 0.8rem;
 15:   color: $grey;
 16: }
@@ -65,4 +65,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey\".\A         on line 15 of sass/modules/input/input.scss\A \A 10:   font-family: \"Manrope\", \"Arial\", sans-serif;\A 11:   font-style: normal;\A 12:   font-weight: normal;\A 13:   font-size: 0.9rem;\A 14:   line-height: 0.8rem;\A 15:   color: $grey;\A 16: }"; }
+  content: "Error: Undefined variable: \"$grey\".\A         on line 15 of sass/modules/input/input.scss\A \A 10:   font-family: \"Manrope\", \"Arial\", sans-serif;\A 11:   font-style: normal;\A 12:   font-weight: normal;\A 13:   font-size: 0.9em;\A 14:   line-height: 0.8rem;\A 15:   color: $grey;\A 16: }"; }

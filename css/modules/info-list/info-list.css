@@ -5,7 +5,7 @@
   list-style: none; }
   .info-list__item {
     position: relative;
-    margin-bottom: 24px; }
+    margin-bottom: 1.5rem; }
     .info-list__item--arrow::after {
       content: "";
       position: absolute;

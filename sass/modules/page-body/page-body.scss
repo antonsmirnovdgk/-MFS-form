@@ -6,13 +6,9 @@ body {
   box-sizing: border-box;
 }
 
-.html {
-  font-size: 100%;
-}
-
 .page-body {
   position: relative;
   font-family: "Manrope", "Arial", sans-serif;
-  line-height: 26px;
+  font-size: calc(1em + 0.1vw);
   background-color: $dark;
 }

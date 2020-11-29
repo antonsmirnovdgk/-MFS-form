@@ -334,10 +334,10 @@ template {
   font-display: swap;
   src: local("Manrope-Regular"), url("../../fonts/Manrope/Manrope-Regular.woff2") format("woff2"), url("../../fonts/Manrope/Manrope-Regular.woff") format("woff"); }
 .container {
-  max-width: 1170px;
+  max-width: 73.125em;
   margin: 0 auto;
-  padding-left: 24px;
-  padding-right: 24px; }
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
 
 .logo__link {
   font-weight: 600;
@@ -349,13 +349,13 @@ template {
     opacity: 0.8; }
   .logo__link:active {
     opacity: 0.6; }
-  @media (min-width: 376px) {
+  @media (min-width: 23.5em) {
     .logo__link {
       font-size: 1.5em; } }
 
 .logo--padding {
   padding-top: 36px; }
-  @media (min-width: 376px) {
+  @media (min-width: 23.5em) {
     .logo--padding {
       padding-top: 64px;
       width: auto; } }
@@ -367,18 +367,15 @@ body {
   margin: 0;
   box-sizing: border-box; }
 
-.html {
-  font-size: 100%; }
-
 .page-body {
   position: relative;
   font-family: "Manrope", "Arial", sans-serif;
-  line-height: 26px;
+  font-size: calc(1em + 0.1vw);
   background-color: #252d38; }
 
 .header {
   position: relative;
-  margin-bottom: 42px; }
+  margin-bottom: 2.625rem; }
   .header::before {
     content: "";
     position: absolute;
@@ -389,42 +386,42 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 100% 0; }
-    @media (min-width: 376px) {
+    @media (min-width: 23.5em) {
       .header::before {
         background-image: linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)), url("../img/body/bodyback.png");
         background-size: cover; } }
 
 .promo {
-  margin-bottom: 63px; }
-  @media (min-width: 768px) {
+  margin-bottom: 3.9375rem; }
+  @media (min-width: 48em) {
     .promo {
-      margin-bottom: 72px; } }
+      margin-bottom: 4.5rem; } }
   .promo__title {
     min-width: 96%;
     margin: 0;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2em;
     line-height: 2.4rem;
     color: #ffffff; }
-    @media (min-width: 376px) {
+    @media (min-width: 23.5em) {
       .promo__title {
         font-weight: 600;
-        font-size: 2.2rem;
+        font-size: 2.2em;
         line-height: 2.7rem; } }
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       .promo__title {
-        font-size: 3.7rem;
+        font-size: 3.7em;
         line-height: 4rem; } }
 
 .content {
   position: relative;
-  padding-bottom: 163px; }
+  padding-bottom: 10.1875rem; }
   .content .container {
     padding: 0; }
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       .content .container {
-        padding-left: 24px;
-        padding-right: 24px; } }
+        padding-left: 1.5rem;
+        padding-right: 1.5rem; } }
   .content::before {
     position: absolute;
     content: " ";
@@ -436,38 +433,38 @@ body {
     display: flex;
     justify-content: flex-start;
     flex-direction: column; }
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       .content__wrapper {
         flex-direction: row; } }
   .content__column-text {
     position: relative;
     width: auto;
     margin-right: 0;
-    margin-bottom: 63px;
-    padding-left: 24px;
-    padding-right: 24px; }
-    @media (min-width: 768px) {
+    margin-bottom: 3.9375rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; }
+    @media (min-width: 48em) {
       .content__column-text {
-        width: 39%;
+        width: 28.51875rem;
         max-width: 100%;
         padding: 0;
-        margin-right: 3%; } }
+        margin-right: 2.19375rem; } }
   .content__column-data {
     position: relative;
     width: auto;
     max-width: 100%; }
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       .content__column-data {
-        width: 58%; } }
+        width: 42.4125rem; } }
 
 .list {
   list-style: none; }
   .list__item {
     position: relative;
-    padding-left: 60px;
-    margin-bottom: 32px;
+    padding-left: 3.75rem;
+    margin-bottom: 2rem;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1em;
     line-height: 1.375rem;
     color: #ffffff; }
     .list__item::before {
@@ -479,34 +476,34 @@ body {
       left: 0;
       background-image: url(../svg/list/list-icon.svg);
       background-repeat: no-repeat; }
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {
       .list__item {
-        margin-bottom: 38px;
-        font-size: 1.1875rem;
+        margin-bottom: 2.25rem;
+        font-size: 1.1875em;
         line-height: 1.625rem; } }
 
 .form {
   width: 100%;
-  padding: 24px;
+  padding: 1.5rem;
   background-color: #ffffff;
   border-radius: 16px; }
   .form__fieldset {
     padding: 0;
-    margin-bottom: 64px;
+    margin-bottom: 4rem;
     border: none; }
   .form__title {
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
     font-family: "Manrope", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     line-height: 1.1rem;
     display: flex;
     align-items: center;
     color: #000000; }
-  @media (min-width: 768px) {
+  @media (min-width: 48em) {
     .form {
-      padding: 32px; } }
+      padding: 2rem; } }
 
 .info-list {
   border: none;
@@ -515,7 +512,7 @@ body {
   list-style: none; }
   .info-list__item {
     position: relative;
-    margin-bottom: 24px; }
+    margin-bottom: 1.5rem; }
     .info-list__item--arrow::after {
       content: "";
       position: absolute;
@@ -537,7 +534,7 @@ body {
   font-family: "Manrope", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   line-height: 0.8rem;
   color: #4d4d4d; }
 
@@ -557,8 +554,8 @@ body {
 
 .checkbox {
   position: relative;
-  padding-left: 33px;
-  margin-bottom: 32px; }
+  padding-left: 2.0625rem;
+  margin-bottom: 2rem; }
   .checkbox__input {
     position: absolute;
     -webkit-appearance: none;
@@ -577,13 +574,14 @@ body {
         left: 0;
         background-image: url("../svg/checkbox/checkbox.svg");
         cursor: pointer; }
-      .checkbox__input + label:checked + label::before {
-        width: 24px;
-        height: 24px;
-        background-image: url("../svg/checkbox/checkbox-checked.svg"); }
+    .checkbox__input:checked + label::before {
+      left: 0;
+      width: 24px;
+      height: 24px;
+      background-image: url("../svg/checkbox/checked.svg"); }
 
 .button {
-  padding: 20px 0;
+  padding: 1.25rem 0;
   width: 100%;
   background: #ff6432;
   border: none;
@@ -592,7 +590,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
-  line-height: 16px;
+  line-height: 1em;
   color: #ffffff;
   cursor: pointer; }
   .button:hover, .button:focus {

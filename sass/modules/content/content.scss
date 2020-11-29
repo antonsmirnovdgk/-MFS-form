@@ -1,13 +1,13 @@
 .content {
   position: relative;
-  padding-bottom: 163px;
+  padding-bottom: 10.1875rem;
 
   .container {
     padding: 0;
 
     @media (min-width: $tablet-width) {
-      padding-left: 24px;
-      padding-right: 24px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
     }
   }
 
@@ -38,15 +38,15 @@
     position: relative;
     width: auto;
     margin-right: 0;
-    margin-bottom: 63px;
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-bottom: 3.9375rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 
     @media (min-width: $tablet-width) {
-      width: 39%;
+      width: 28.51875rem;
       max-width: 100%;
       padding: 0;
-      margin-right: 3%;
+      margin-right: 2.19375rem;
     }
   }
 
@@ -56,7 +56,7 @@
     max-width: 100%;
 
     @media (min-width: $tablet-width) {
-      width: 58%;
+      width: 42.4125rem;
     }
   }
 }
