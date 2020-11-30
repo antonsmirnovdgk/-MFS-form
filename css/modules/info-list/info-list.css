@@ -10,9 +10,9 @@
       content: "";
       position: absolute;
       right: 0;
-      top: 28px;
-      width: 24px;
-      height: 24px;
+      top: 1.75rem;
+      width: 1.5rem;
+      height: 1.5rem;
       background-image: url("../svg/select/down-arrow.svg");
       background-repeat: no-repeat; }
 

@@ -7,7 +7,7 @@ Error: Undefined variable: "$orange".
 3:   width: 100%;
 4:   background: $orange;
 5:   border: none;
-6:   border-radius: 4px;
+6:   border-radius: 0.25rem;
 7: 
 8:   font-family: "Graphik", "Arial", sans-serif;
 9:   font-style: normal;
@@ -67,4 +67,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 4 of sass/modules/button/button.scss\A \A 1: .button {\A 2:   padding: 1.25rem 0;\A 3:   width: 100%;\A 4:   background: $orange;\A 5:   border: none;\A 6:   border-radius: 4px;\A 7: \A 8:   font-family: \"Graphik\", \"Arial\", sans-serif;\A 9:   font-style: normal;"; }
+  content: "Error: Undefined variable: \"$orange\".\A         on line 4 of sass/modules/button/button.scss\A \A 1: .button {\A 2:   padding: 1.25rem 0;\A 3:   width: 100%;\A 4:   background: $orange;\A 5:   border: none;\A 6:   border-radius: 0.25rem;\A 7: \A 8:   font-family: \"Graphik\", \"Arial\", sans-serif;\A 9:   font-style: normal;"; }
