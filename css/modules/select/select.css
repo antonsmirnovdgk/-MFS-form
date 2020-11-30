@@ -6,7 +6,7 @@ Error: Undefined variable: "$grey".
 14:   font-style: normal;
 15:   font-weight: normal;
 16:   font-size: 1.8em;
-17:   line-height: 1.75rem;
+17:   line-height: 1.375rem;
 18:   color: $grey;
 19: }
 20: 
@@ -69,4 +69,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey\".\A         on line 18 of sass/modules/select/select.scss\A \A 13:   font-family: \"Manrope\", \"Arial\", sans-serif;\A 14:   font-style: normal;\A 15:   font-weight: normal;\A 16:   font-size: 1.8em;\A 17:   line-height: 1.75rem;\A 18:   color: $grey;\A 19: }\A 20: \A 21: .select::-ms-expand {\A 22:   display: none;\A 23: }"; }
+  content: "Error: Undefined variable: \"$grey\".\A         on line 18 of sass/modules/select/select.scss\A \A 13:   font-family: \"Manrope\", \"Arial\", sans-serif;\A 14:   font-style: normal;\A 15:   font-weight: normal;\A 16:   font-size: 1.8em;\A 17:   line-height: 1.375rem;\A 18:   color: $grey;\A 19: }\A 20: \A 21: .select::-ms-expand {\A 22:   display: none;\A 23: }"; }

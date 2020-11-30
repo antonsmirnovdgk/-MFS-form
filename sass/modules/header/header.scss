@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-position: 100% 0;
 
-    @media (min-width: $mobile-width) {
+    @media (min-width: $tablet-width) {
       background-image: linear-gradient(
           0deg,
           rgba(37, 45, 56, 0.62),
