@@ -383,7 +383,7 @@ body {
     content: "";
     position: absolute;
     z-index: -1;
-    height: 100vh;
+    height: 990px;
     width: 100%;
     background-image: url("../img/body/bodymobile.png");
     background-size: contain;
@@ -418,6 +418,25 @@ body {
 .content {
   position: relative;
   padding-bottom: 10.1875rem; }
+  .content::before {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 392px;
+    top: -100px;
+    z-index: -1;
+    background: linear-gradient(180deg, #252d38 3.12%, rgba(37, 45, 56, 0) 100%);
+    transform: rotate(-180deg); }
+  @media (min-width: 46.5625rem) {
+    .content::before {
+      position: absolute;
+      content: " ";
+      width: 100%;
+      height: 100%;
+      top: -692px;
+      z-index: -1;
+      background: linear-gradient(180deg, #252d38 3.12%, rgba(37, 45, 56, 0) 100%);
+      transform: rotate(-180deg); } }
   .content .container {
     padding: 0; }
     @media (min-width: 46.5625rem) {
