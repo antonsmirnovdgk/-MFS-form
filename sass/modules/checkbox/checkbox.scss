@@ -31,7 +31,8 @@
     }
 
     &:checked + label::before {
-      left: 0;
+      left: 0.3125rem;
+      top: 0.3125rem;
       width: 1.5rem;
       height: 1.5rem;
       background-image: url("../svg/checkbox/checked.svg");

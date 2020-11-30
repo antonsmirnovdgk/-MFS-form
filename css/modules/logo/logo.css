@@ -8,11 +8,11 @@ Error: Undefined variable: "$white".
 5:     font-size: 1.4em;
 6:     line-height: 1.375rem;
 7:     color: $white;
-8: 
-9:     text-decoration: none;
-10: 
-11:     &:hover,
-12:     &:focus {
+8:     text-decoration: none;
+9: 
+10:     &:hover,
+11:     &:focus {
+12:       opacity: 0.8;
 
 Backtrace:
 sass/modules/logo/logo.scss:7
@@ -80,4 +80,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 7 of sass/modules/logo/logo.scss\A \A 2:   width: 50%;\A 3:   &__link {\A 4:     font-weight: 600;\A 5:     font-size: 1.4em;\A 6:     line-height: 1.375rem;\A 7:     color: $white;\A 8: \A 9:     text-decoration: none;\A 10: \A 11:     &:hover,\A 12:     &:focus {"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 7 of sass/modules/logo/logo.scss\A \A 2:   width: 50%;\A 3:   &__link {\A 4:     font-weight: 600;\A 5:     font-size: 1.4em;\A 6:     line-height: 1.375rem;\A 7:     color: $white;\A 8:     text-decoration: none;\A 9: \A 10:     &:hover,\A 11:     &:focus {\A 12:       opacity: 0.8;"; }

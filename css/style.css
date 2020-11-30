@@ -334,7 +334,7 @@ template {
   font-display: swap;
   src: local("Manrope-Regular"), url("../../fonts/Manrope/Manrope-Regular.woff2") format("woff2"), url("../../fonts/Manrope/Manrope-Regular.woff") format("woff"); }
 .container {
-  max-width: 73.125rem;
+  max-width: 60rem;
   margin: 0 auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem; }
@@ -385,15 +385,14 @@ body {
     z-index: -1;
     height: 392px;
     width: 100%;
-    background-image: linear-gradient(to top, #252d38 3.12%, rgba(37, 45, 56, 0) 100%), url("../img/body/bodymobile.png");
+    background-image: linear-gradient(to top, #252d38 3.12%, rgba(37, 45, 56, 0) 100%), url("../img/body/mfc/bodymobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100% 0; }
     @media (min-width: 46.5625rem) {
       .header::before {
         height: 990px;
-        background-image: linear-gradient(to top, #252d38 3.12%, rgba(37, 45, 56, 0) 100%), linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)), url("../img/body/bodyback.png");
-        background-size: cover; } }
+        background-image: linear-gradient(to top, #252d38 3.12%, rgba(37, 45, 56, 0) 100%), linear-gradient(0deg, rgba(37, 45, 56, 0.62), rgba(37, 45, 56, 0.62)), url("../img/body/mfc/bodyback.png"); } }
 
 .promo {
   margin-bottom: 3.9375rem; }
@@ -577,7 +576,8 @@ body {
     .checkbox__input::-ms-check {
       display: none; }
     .checkbox__input:checked + label::before {
-      left: 0;
+      left: 0.3125rem;
+      top: 0.3125rem;
       width: 1.5rem;
       height: 1.5rem;
       background-image: url("../svg/checkbox/checked.svg");
