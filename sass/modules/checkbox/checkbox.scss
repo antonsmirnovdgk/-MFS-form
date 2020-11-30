@@ -26,6 +26,10 @@
       }
     }
 
+    &::-ms-check {
+      display: none;
+    }
+
     &:checked + label::before {
       left: 0;
       width: 1.5rem;

@@ -581,6 +581,8 @@ body {
         left: 0;
         background-image: url("../svg/checkbox/checkbox.svg");
         cursor: pointer; }
+    .checkbox__input::-ms-check {
+      display: none; }
     .checkbox__input:checked + label::before {
       left: 0;
       width: 1.5rem;
