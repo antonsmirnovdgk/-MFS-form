@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$tablet-width".
-        on line 16 of sass/modules/header/header.scss
+        on line 21 of sass/modules/header/header.scss
 
-11:     background-image: url("../img/body/bodymobile.png");
-12:     background-size: contain;
-13:     background-repeat: no-repeat;
-14:     background-position: 100% 0;
-15: 
-16:     @media (min-width: $tablet-width) {
-17:       background-image: linear-gradient(
-18:           0deg,
-19:           rgba(37, 45, 56, 0.62),
-20:           rgba(37, 45, 56, 0.62)
-21:         ),
+16:       url("../img/body/bodymobile.png");
+17:     background-size: cover;
+18:     background-repeat: no-repeat;
+19:     background-position: 100% 0;
+20: 
+21:     @media (min-width: $tablet-width) {
+22:       height: 990px;
+23:       background-image: linear-gradient(
+24:           to top,
+25:           #252d38 3.12%,
+26:           rgba(37, 45, 56, 0) 100%
 
 Backtrace:
-sass/modules/header/header.scss:16
+sass/modules/header/header.scss:21
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:551:in `block in run_interp_no_strip'
@@ -84,4 +84,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 16 of sass/modules/header/header.scss\A \A 11:     background-image: url(\"../img/body/bodymobile.png\");\A 12:     background-size: contain;\A 13:     background-repeat: no-repeat;\A 14:     background-position: 100% 0;\A 15: \A 16:     @media (min-width: $tablet-width) {\A 17:       background-image: linear-gradient(\A 18:           0deg,\A 19:           rgba(37, 45, 56, 0.62),\A 20:           rgba(37, 45, 56, 0.62)\A 21:         ),"; }
+  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 21 of sass/modules/header/header.scss\A \A 16:       url(\"../img/body/bodymobile.png\");\A 17:     background-size: cover;\A 18:     background-repeat: no-repeat;\A 19:     background-position: 100% 0;\A 20: \A 21:     @media (min-width: $tablet-width) {\A 22:       height: 990px;\A 23:       background-image: linear-gradient(\A 24:           to top,\A 25:           #252d38 3.12%,\A 26:           rgba(37, 45, 56, 0) 100%"; }

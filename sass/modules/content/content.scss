@@ -2,38 +2,6 @@
   position: relative;
   padding-bottom: 10.1875rem;
 
-  &::before {
-    position: absolute;
-    content: " ";
-    width: 100%;
-    height: 392px;
-    top: -100px;
-    z-index: -1;
-    background: linear-gradient(
-      180deg,
-      #252d38 3.12%,
-      rgba(37, 45, 56, 0) 100%
-    );
-    transform: rotate(-180deg);
-  }
-
-  @media (min-width: $tablet-width) {
-    &::before {
-      position: absolute;
-      content: " ";
-      width: 100%;
-      height: 100%;
-      top: -692px;
-      z-index: -1;
-      background: linear-gradient(
-        180deg,
-        #252d38 3.12%,
-        rgba(37, 45, 56, 0) 100%
-      );
-      transform: rotate(-180deg);
-    }
-  }
-
   .container {
     padding: 0;
 
